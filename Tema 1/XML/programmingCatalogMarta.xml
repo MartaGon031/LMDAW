@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="programmingCatalogMarta.css"?>
+	<catalog>
+       <book>
+           <title>Clean Code</title>
+           <author>Robert C. Martin</author>
+           <year>2008</year>
+           <publisher>Prentice Hall</publisher>
+       </book>
+        <book>
+           <title>Las 48 leyes del poder</title>
+           <author>Robert Greene</author>
+           <year>1998</year>
+           <publisher> Juan de la Cuesta a costa de Francisco de Robles </publisher>
+       </book>
+       <book>
+           <title>Hábitos atómicos</title>
+           <author>James Clear</author>
+           <year>2020</year>
+           <publisher>Diana Editorial</publisher>
+       </book>
+       <book>
+           <title>Centrate (Deep Work)</title>
+           <author>Cal Newport</author>
+           <year>2022</year>
+           <publisher>Espasa</publisher>
+       </book>
+   </catalog>

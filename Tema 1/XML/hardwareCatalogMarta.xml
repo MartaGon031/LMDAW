@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="hardwareCatalogMarta.css"?>
+<hardwareCatalog>
+    <item>
+        <id>01</id>
+        <type>Portatil</type>
+        <brand>Asus</brand>
+        <model>Tuf Dash F15</model>
+        <specifications>
+            Procesador Intel Core i7, 16GB RAM, 512GB SSD, RTX 3060
+        </specifications>
+    </item>
+
+    <item>
+        <id>02</id>
+        <type>Monitor</type>
+        <brand>AOC</brand>
+        <model>Curved 24</model>
+        <specifications>
+            Pantalla curva de 24 pulgadas, Resolución 1920x1080, 144Hz
+        </specifications>
+    </item>
+
+    <item>
+        <id>03</id>
+        <type>Teclado</type>
+        <brand>Razer</brand>
+        <model>QWERTY</model>
+        <specifications>
+            Teclado inalámbrico
+        </specifications>
+    </item>
+</hardwareCatalog>
