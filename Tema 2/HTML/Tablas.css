@@ -1,37 +1,46 @@
 body {
+    font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    margin: 0;
+    min-height: 100vh;
     background-color: #f5f5f5;
-    font-family: Arial, sans-serif;
 }
 
 table {
     width: 80%;
     border-collapse: collapse;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
 }
 
-table th {
-    background-color: #4CAF50;
+table, th, td {
+    text-align: center;
+}
+
+td, th {
+    padding: 12px;
+    font-size: 16px;
+}
+
+th {
+    background-color: #5685d1;
     color: white;
-    padding: 10px;
-    text-align: center;
 }
 
-table td {
-    padding: 10px;
-    text-align: center;
-    border: 1px solid #ddd;
-    background-color: #fff;
+tr:first-child td {
+    background-color: #74aede;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
 }
 
-table tr:nth-child(even) td {
-    background-color: #f2f2f2;
-}
-
-table tr:hover td {
-    background-color: #ddd;
-}
+.ENDES { background-color: #eaeaea; }    
+.Ingles { background-color: #eadbd7; }  
+.LMSGI { background-color: #bee4cc; }   
+.SIINF { background-color: #e7d7c7; }    
+.SAS { background-color: #efdfea; }       
+.PROG { background-color: #c0d9e3; }     
+.DAS { background-color: #e2cedd; }      
+.IPE { background-color: #e1d0e6; }       
+.BADAT { background-color: #dee0c9; }
+.hora { background-color: #b7e7ef;}
