@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<agenda>
+    <persona>
+        <nombre>Marta</nombre>
+        <apellidos>Gonzalez Bermudez</apellidos>
+        <direccion>
+            <calle>El portal</calle>
+            <ciudad>Cadiz</ciudad>
+            <codigoPostal>11510</codigoPostal>
+            <pais>España</pais>
+        </direccion>
+        <telefonos>
+            <telefono tipo="casa">912345678</telefono>
+            <telefono tipo="movil">699123456</telefono>
+            <telefono tipo="trabajo">915678910</telefono>
+        </telefonos>
+    </persona>
+    
+    <persona>
+        <nombre>María</nombre>
+        <apellidos>González Bermudez</apellidos>
+        <direccion>
+            <calle>El portal</calle>
+            <ciudad>Cadiz</ciudad>
+            <codigoPostal>11510</codigoPostal>
+            <pais>España</pais>
+        </direccion>
+        <telefonos>
+            <telefono tipo="casa">934567890</telefono>
+            <telefono tipo="trabajo">678901234</telefono>
+        </telefonos>
+    </persona>
+    
+    <persona>
+        <nombre>Carlos</nombre>
+        <apellidos>Fernández Martínez</apellidos>
+        <direccion>
+            <calle>Calle del Sol</calle>
+            <ciudad>Valencia</ciudad>
+            <codigoPostal>46001</codigoPostal>
+            <pais>España</pais>
+        </direccion>
+        <telefonos>
+            <telefono tipo="movil">612345678</telefono>
+        </telefonos>
+    </persona>
+</agenda>
