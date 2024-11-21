@@ -8,37 +8,98 @@
     <h1 aling="center">Prueba de formularios</h1>
     <table align="center" border="2" cellpadding="20">
         <tr>
-            <td bgcolor="aqua">
+            <td>
                 <form>
                 <p>
                     Nombre: 
-                    <input type="text" name="nombre" size="25" maxlength="40"><br><br>
+                    <input type="text" name="nombre"><br><br>
                     Direccion:
-                    <input type="text" name="direcc" size="20" maxlength="30"><br><br>
+                    <input type="text" name="direcc"><br><br>
                     Telefono: 
-                    <input type="text" name="tlf" size="10" maxlength="10" value="0"><br><br>
+                    <input type="text" name="tlf"><br><br>
                     Edad:
-                    <input type="number" name="edad" size="3" maxlength="3" value="0"><br><br>
+                    <input type="number" name="edad" size="3"><br><br>
                     Poblacion: 
-                    <input type="text" name="pobla" size="20" maxlength="30" value="Talavera"><br><br>
+                    <input type="text" name="pobla"><br><br>
+                    Fecha:
+                    <input type="date" name="fecha"><br><br>
                     Contraseña:
                     <input type="password" name="contra"><br><br>
-                    Sexo:
                     <br>
+                    Tipos de juegos: 
+                    <input type="radio" name="juego" value="Aventura" >Aventura
+                    <input type="radio" name="juego" value="Estrategia">Estrategia
+                    <input type="radio" name="juego" value="accion">Acción
+                    <input type="radio" name="juego" value="derporte">Deporte
+                    <br><br>
+                    Sexo:
                     <input type="checkbox" name="Hombre">Hombre
                     <input type="checkbox" name="Mujer">Mujer
                     <br><br>
                     <input type="button" value="Enviar">
+                    <input type="reset" name="nombre" value="Borrar">
                 </p>
             </form>
         </td>
         </tr>
     </table>
     <style>
-        h1 {
-            text-align: center;
-            font-family: Arial, Helvetica, sans-serif;
-        }
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c0d5e4;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    color: #1958a0;
+}
+
+table {
+    background-color: #e2e7ec;
+    border-collapse: collapse;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 90%;
+    max-width: 550px;
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="number"],
+form input[type="date"] {
+    width: calc(100% - 10px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+form input[type="button"],
+form input[type="reset"] {
+    background-color: #1958a0;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 14px;
+
+}
+
+form input[type="radio"],
+form input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+form p {
+    color: #333;
+}
+
     </style>
 </body>
 </html>
