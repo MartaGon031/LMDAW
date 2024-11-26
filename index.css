@@ -1,0 +1,106 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eaf2f8;
+    color: #2c3e50;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(90deg, #080808, #ffffff);
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+nav {
+    background: #50534f;
+    padding: 0.8rem 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 1.5rem;
+    font-size: 1.2rem;
+    color: #ecf0f1;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+nav ul li:hover {
+    color: #8ed3c5;
+}
+
+section {
+    padding: 2rem 4rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+section h2 {
+    font-size: 1.8rem;
+    color: #404346;
+    border-left: 5px solid ;
+    padding-left: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+section ul {
+    padding: 0;
+    margin: 0 0 1.5rem 1.5rem;
+    list-style: none;
+}
+
+section ul a {
+    text-decoration: none;
+    color: #34495e;
+    font-size: 1.1rem;
+    display: block;
+    padding: 0.5rem 1rem;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+section ul a:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #a0a4a8;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+    section {
+        padding: 1rem;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 0.5rem 0;
+    }
+
+    section ul a {
+        font-size: 1rem;
+    }
+}
