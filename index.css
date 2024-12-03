@@ -12,7 +12,7 @@ header {
     color: #ecf0f1;
     text-align: center;
     padding: 1.5rem 0;
-    border-bottom: 4px solid #ffffff;
+    border-bottom: solid #ffffff;
 }
 
 header h1 {
@@ -20,12 +20,10 @@ header h1 {
     margin: 0;
     font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 2px;
     color: #f3f1ed;
 }
 
 section {
-    padding: 2rem 4rem;
     max-width: 900px;
     margin: 0 auto;
 }
@@ -42,7 +40,6 @@ section h2 {
 section ul {
     padding: 0;
     margin: 0 0 1.5rem 1.5rem;
-    list-style: none;
 }
 
 section ul a {
