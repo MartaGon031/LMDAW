@@ -1,0 +1,201 @@
+ul,ul li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+h1,h2,h3,p,form {
+    margin: 0;
+    padding: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+img {
+    border: none;
+}
+
+#contenedor {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#cabecera,#menu,#lateral,#pie, #noticias, #publicidad {
+    border: 2px solid #777;
+}
+
+#contenido #secundario {
+    border: 2px solid #CC6600;
+}
+
+#cabecera {
+    clear: both;
+    padding: 10px;
+}
+
+#menu {
+    clear: both;
+    margin-right: 1em;
+    background-color: rgb(27, 49, 173);
+    padding: 5px;
+}
+
+#lateral {
+    float: left;
+    width: 20%;
+    font-size: 0.9em;
+    margin-right: 10px;
+}
+
+#contenido {
+    float: right;
+    width: 78%;
+}
+
+#contenido #principal {
+    float: left;
+    width: 78%;
+}
+
+#contenido #secundario {
+    float: right;
+    width: 20%;
+}
+
+#pie {
+    clear: both;
+    background-color: #e2d9d9;
+}
+
+#cabecera #logo {
+    float: left;
+}
+
+#cabecera #buscador {
+    float: right;
+}
+
+#menu ul#menu_principal li {
+    display: inline;
+    float: left;
+}
+
+#contenido #principal .articulo img {
+    width: 100px;
+    float: left;
+}
+
+#pie .enlaces {
+    float: left;
+    padding: 5px;
+}
+
+#pie .copyright {
+    float: right;
+    padding: 5px;
+}
+
+body {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    
+}
+
+.articulo h2 {
+    color: #CC6600;
+    font-size: 1.6em;
+    margin-bottom: 0.3em;
+}
+
+.articulo a {
+    color: #cc6600;
+}
+.articulo p {
+    margin-top: 0.3em;
+}
+
+#menu ul a {
+    color:white;
+    font-size: 1.3em;
+    padding-right: 15px;
+}
+
+.fecha {
+    color: #999;
+}
+
+#noticias {
+    color: #003366;
+    margin: 10px;
+}
+
+#publicidad {
+    color: #555;
+    background-color: #f9fab6;
+    padding: 5px;
+    margin: 10px;
+}
+
+#publicidad a {
+    color: #CC6600;
+}
+
+#secundario h2 {
+    color: white;
+    background-color: #CC6600;
+}
+
+table {
+    margin: 20px;
+    width: 500px;
+}
+
+#contenedor h1 {
+    color: #CC6600;
+}
+
+.articulo {
+    padding: 10px;
+}
+
+#secundario {
+    padding: 5px;
+    border: #CC6600;
+}
+
+#secundario h2{
+    padding: 5px;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+#secundario p{
+    padding: 5px;
+    padding-bottom: 10px;
+}
+
+#publicidad p {
+    padding: 5px;
+    padding-bottom: 12px;
+}
+
+.negrita  {
+    text-decoration: solid;
+}
+
+#noticias {
+    background-color: #f7f3f3;
+    padding: 10px;
+}
+
+#buscador {
+    padding-top: 5px;
+}
+
+.negrita {
+    font-weight: bold;
+}
