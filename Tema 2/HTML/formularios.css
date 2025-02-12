@@ -1,0 +1,56 @@
+label, input, select{
+    display: block;
+}
+
+input[type=text], select{
+    display: block;
+    margin-bottom: 50px;
+}
+
+input[type=text], select{
+    display: block;
+    margin-bottom: 50px;
+    width: 80%;
+}
+
+input[type=text], select{
+    display: block;
+    margin-bottom: 50px;
+    width: 80%;
+}
+
+form{
+    width: 50%;
+    margin: auto;
+}
+
+input[type=text], select{
+    display: block;
+    margin-bottom: 50px;
+    width: 80%;
+}
+
+form{
+    width: 50%;
+    margin: auto;
+}
+
+fieldset{
+    padding: 5%;
+}
+
+input[type=text], select{
+    display: block;
+    margin-bottom: 50px;
+    width: 80%;
+    padding:10px; /*Rellenamos los controles*/
+}
+
+form{
+    width: 50%;
+    margin: auto;
+}
+
+fieldset{
+    padding: 5%;
+}
